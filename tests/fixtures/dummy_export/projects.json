@@ -1,0 +1,21 @@
+[
+  {
+    "uuid": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "name": "青空商店 Webリニューアル",
+    "description": "架空の商店のサイト刷新プロジェクト",
+    "prompt_template": "あなたは青空商店のWeb制作を手伝うアシスタントです。丁寧語で回答してください。",
+    "created_at": "2026-04-01T00:00:00Z",
+    "updated_at": "2026-04-10T00:00:00Z",
+    "docs": [
+      {"uuid": "d1", "filename": "ブランドガイド.md", "content": "# ブランドガイド\n\n基調色は青。書体は丸ゴシック。写真は自然光で。", "created_at": "2026-04-01T00:00:00Z"}
+    ]
+  },
+  {
+    "uuid": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "name": "山川市 観光パンフレット",
+    "prompt_template": "架空の自治体の観光パンフレット制作プロジェクト。",
+    "created_at": "2026-05-01T00:00:00Z",
+    "updated_at": "2026-05-01T00:00:00Z",
+    "docs": []
+  }
+]

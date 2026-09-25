@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+_trash/
+# 利用者データ（本体・索引）はリポジトリに含めない
+etoile-index-data/
+*.sqlite

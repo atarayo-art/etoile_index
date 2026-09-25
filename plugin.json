@@ -1,0 +1,25 @@
+{
+  "name": "etoile-index",
+  "version": "0.1.0",
+  "description": "Claude の全スレッド・全プロジェクトを Spotlight 風に索引化し、プロジェクトの壁を越えて全文＋意味で検索する。Claude 自身が索引を引いて答えられるようにスキルと MCP サーバを同梱。",
+  "author": "atarayo-art",
+  "license": "MIT",
+  "homepage": "https://github.com/atarayo-art/etoile_index",
+  "skills": [
+    "skills/idx-recall",
+    "skills/idx-index"
+  ],
+  "mcpServers": {
+    "etoile-index": {
+      "command": "idx-mcp",
+      "args": [],
+      "env": {
+        "ETOILE_INDEX_DATA": "${HOME}/etoile-index-data"
+      }
+    }
+  },
+  "requirements": {
+    "python": ">=3.11",
+    "install": "pipx install 'etoile-index[mcp]'"
+  }
+}

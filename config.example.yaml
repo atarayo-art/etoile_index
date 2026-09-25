@@ -1,0 +1,15 @@
+# ~/etoile-index-data/config.yaml にコピーして使う。
+# 値はすべて例。実際の法人名・案件名は利用者の環境側にだけ置く（リポジトリには入れない）。
+
+timezone: Asia/Tokyo
+
+# プロジェクト名・スレッドタイトルに含まれる語から ci:org（法人・区分）を決める。上から順に評価。
+org_rules:
+  - org: EXAMPLE-A
+    match: [青空商店]
+  - org: EXAMPLE-B
+    match: [山川市]
+default_org: 個人
+
+# エクスポートに会話→プロジェクトの紐付けが無い場合の手動補完（会話UUID → プロジェクト名）
+project_overrides: {}
