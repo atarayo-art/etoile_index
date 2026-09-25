@@ -1,0 +1,63 @@
+[
+  {
+    "uuid": "11111111-1111-4111-8111-111111111111",
+    "name": "青空商店 サイト刷新の方針整理",
+    "summary": "",
+    "created_at": "2026-04-10T01:32:00.123456Z",
+    "updated_at": "2026-04-10T02:05:00.000000Z",
+    "project_uuid": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "chat_messages": [
+      {
+        "uuid": "m1",
+        "sender": "human",
+        "text": "青空商店のサイト刷新について、田中さんから要望が来ています。トップページの構成をどうするか整理したい。",
+        "created_at": "2026-04-10T01:32:00Z",
+        "attachments": [
+          {"file_name": "要望メモ.txt", "file_type": "txt", "extracted_content": "田中さんの要望: 営業時間をトップに大きく。写真を増やす。"}
+        ],
+        "files": []
+      },
+      {
+        "uuid": "m2",
+        "sender": "assistant",
+        "text": "承知しました。田中さんの要望を踏まえ、トップページは営業時間を最上部に置き、写真ギャラリーを追加する構成にしましょう。決定事項として、公開日は5月末とします。",
+        "created_at": "2026-04-10T01:33:00Z",
+        "attachments": [],
+        "files": []
+      }
+    ]
+  },
+  {
+    "uuid": "22222222-2222-4222-8222-222222222222",
+    "name": "小規模事業者向け補助金の申請メモ",
+    "created_at": "2026-05-02T09:00:00Z",
+    "updated_at": "2026-05-03T10:00:00Z",
+    "project_uuid": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "chat_messages": [
+      {"uuid": "m3", "sender": "human", "text": "山川市の観光パンフレット制作で、補助金の申請書を書きたい。経費の内訳を整理して。", "created_at": "2026-05-02T09:00:00Z"},
+      {"uuid": "m4", "sender": "assistant", "content": [{"type": "text", "text": "経費は印刷費・デザイン費・写真撮影費の3区分に分けます。補助金の上限額は要項を確認しましょう。"}], "created_at": "2026-05-02T09:01:00Z"},
+      {"uuid": "m5", "sender": "human", "text": "ありがとう。補助金の締切は6月末なので、それまでに揃えます。", "created_at": "2026-05-03T10:00:00Z"}
+    ]
+  },
+  {
+    "uuid": "33333333-3333-4333-8333-333333333333",
+    "name": "青空商店 補助金で写真撮影をまかなえるか",
+    "created_at": "2026-06-15T12:00:00Z",
+    "updated_at": "2026-06-15T12:30:00Z",
+    "project_uuid": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "chat_messages": [
+      {"uuid": "m6", "sender": "human", "text": "サイト刷新の写真撮影費を補助金でまかなえるか調べたい。", "created_at": "2026-06-15T12:00:00Z"},
+      {"uuid": "m7", "sender": "assistant", "text": "広報費として計上できる可能性があります。申請要項の対象経費を確認してください。", "created_at": "2026-06-15T12:01:00Z"}
+    ]
+  },
+  {
+    "uuid": "44444444-4444-4444-8444-444444444444",
+    "name": "",
+    "created_at": "2025-12-01T00:00:00Z",
+    "updated_at": "2025-12-01T00:10:00Z",
+    "chat_messages": [
+      {"uuid": "m8", "sender": "human", "text": "プロジェクト外の雑談。週末の旅行計画を考えたい。", "created_at": "2025-12-01T00:00:00Z"},
+      {"uuid": "m9", "sender": "assistant", "text": "いいですね。行き先の候補を3つ挙げます。", "created_at": "2025-12-01T00:01:00Z"}
+    ]
+  }
+]

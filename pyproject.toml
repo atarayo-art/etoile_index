@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etoile-index"
+version = "0.1.0"
+description = "Claude の全スレッド・全プロジェクトを Spotlight 風に索引化し、プロジェクトの壁を越えて検索する CLI / MCP サーバ"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.0"]
+semantic = ["sentence-transformers>=2.7", "numpy>=1.24"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+idx = "idx.cli:main"
+idx-mcp = "idx.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["idx", "idx.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

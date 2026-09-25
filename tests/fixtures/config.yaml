@@ -1,0 +1,7 @@
+timezone: Asia/Tokyo
+org_rules:
+  - org: EXAMPLE-A
+    match: [青空商店]
+  - org: EXAMPLE-B
+    match: [山川市]
+default_org: 個人
